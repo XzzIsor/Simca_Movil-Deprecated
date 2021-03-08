@@ -11,7 +11,7 @@ class LoginBackGround extends StatelessWidget {
     return Stack(
       children: [
         Container(
-            height: size.height * 0.4,
+            height: double.infinity,
             width: double.infinity,
             decoration: BoxDecoration(
               gradient: LinearGradient(
