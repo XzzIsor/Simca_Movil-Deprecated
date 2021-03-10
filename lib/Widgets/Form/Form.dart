@@ -54,7 +54,7 @@ class _CustomFormState extends State<CustomForm> {
         stream: bloc.isValid,
         builder: (BuildContext context, AsyncSnapshot snapshot) {
           return CustomButton(
-            onPressed: snapshot.hasData ? () => {} : null,
+            onPressed: snapshot.hasData ? () => {Navigator.pushReplacementNamed(context,"home")} : null,
             text: "Ingresar",
           );
         },
