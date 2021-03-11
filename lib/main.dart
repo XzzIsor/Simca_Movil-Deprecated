@@ -5,7 +5,7 @@ import 'package:images/screens/Login_Screen.dart';
 import 'bloc/LoginProvider.dart';
  
 void main() => runApp(MyApp());
- 
+
 class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {

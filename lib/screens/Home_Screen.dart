@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:images/Widgets/UI/BackGrounds/HomeBackGround.dart';
 import 'package:images/Widgets/UI/BottomBar.dart';
 
 class HomeScreen extends StatelessWidget {
@@ -7,8 +8,10 @@ class HomeScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Container(
-        color: Colors.blue,
+      body: Stack(
+        children: [
+          HomeBackGround(),
+        ],
       ),
       bottomNavigationBar: CustomBottomBar(),
     );
