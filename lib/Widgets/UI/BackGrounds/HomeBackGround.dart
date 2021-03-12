@@ -18,7 +18,7 @@ class HomeBackGround extends StatelessWidget {
                   const Color.fromRGBO(47, 154, 247, 1),
                   const Color.fromRGBO(47, 190, 247, 1)
                 ], // red to yellow
-                tileMode: TileMode.mirror,
+                tileMode: TileMode.repeated,
               ),
             )),
       ],
