@@ -1,6 +1,8 @@
 # Simca Movil
 Solución móvil optimizada para el servicio de los estudiantes de Unicauca que incluye los servicios proporcionados por SIMCA junto con los servicios estratégicos para el día a día de la vida universitaria.
-Funcional en IOS y Android
+
+Funcional en IOS y Android, para todos los estudiantes de la universidad del cauca
+
 
 ## Getting Started
 
