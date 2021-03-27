@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
       child: MaterialApp(
         title: 'Images',
         debugShowCheckedModeBanner: false,
-        initialRoute: '/',
+        initialRoute: 'home',
         routes: {
           '/' : (BuildContext context) => LoginScreen(),
           'home': (BuildContext context) => HomeScreen(),

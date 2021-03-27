@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:images/Widgets/UI/BackGrounds/HomeBackGround.dart';
-import 'package:images/Widgets/UI/BottomBar.dart';
+import 'package:images/Widgets/UI/Decoration/CustomRectangle.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({Key key}) : super(key: key);
@@ -11,9 +11,10 @@ class HomeScreen extends StatelessWidget {
       body: Stack(
         children: [
           HomeBackGround(),
+          
         ],
       ),
-      bottomNavigationBar: CustomBottomBar(),
+      
     );
   }
 }
