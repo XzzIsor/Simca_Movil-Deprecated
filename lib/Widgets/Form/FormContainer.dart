@@ -14,6 +14,7 @@ class FormContainer extends StatelessWidget {
              height: 100.0,
            ),
           ),
+          SizedBox(height: 100,),
           Container(
             padding: EdgeInsets.symmetric(vertical: 50.0),
             margin: EdgeInsets.symmetric(vertical: 30.0),

@@ -8,7 +8,7 @@ class UserIcon extends StatelessWidget {
       child: Column(
         children: [
           Image(image: AssetImage("Assets/logo-simca.png"),width: 100, height: 100,),
-          SizedBox(height: 10, width: double.infinity),
+         
         ],
       ),
     );
