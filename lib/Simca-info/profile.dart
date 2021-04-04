@@ -1,4 +1,4 @@
-import 'package:flutter/cupertino.dart';
+
 
 class Profile {
   Profile({String nombre, String correo}) {
