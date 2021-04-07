@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:images/Widgets/UI/Buttons/ExpandedButton.dart';
 import 'package:images/Widgets/UI/Buttons/MenuButton.dart';
 
 class ButtonsSection extends StatelessWidget {
@@ -17,6 +18,7 @@ class ButtonsSection extends StatelessWidget {
           children: [ 
             MenuButton(title: "Materias", icon: Icons.class__outlined, backgroundColor: Colors.transparent,) , 
             MenuButton(title: "Matriculas", icon: Icons.school, backgroundColor: Colors.transparent)]),
+          ExpandedButton(),
         ],
       ),
     );
