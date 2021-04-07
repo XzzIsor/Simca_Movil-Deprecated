@@ -1,10 +1,8 @@
 import 'package:flutter/material.dart';
-
 import 'dart:ui';
 
 class ExpandedButton extends StatefulWidget {
   ExpandedButton({Key key}) : super(key: key);
-
   @override
   _ExpandedButtonState createState() => _ExpandedButtonState();
 }
