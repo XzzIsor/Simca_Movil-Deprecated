@@ -24,10 +24,15 @@ class LoginBackGround extends StatelessWidget {
                 tileMode: TileMode.repeated,
               ),
             )),
-        Hero(
-          tag: "hola",
-          child: Image(image: AssetImage("Assets/logo-simca.png"),width: 100, height: 100,)
-        )
+          Positioned( 
+            left: size.width/2 - 50,
+            child: Hero(
+              tag: "hola",
+              child: Image(image: AssetImage("Assets/logo-simca.png"),width: 100, height: 100,)
+            ),
+            top: 70,
+          ),
+        
       ],
     );
   }
